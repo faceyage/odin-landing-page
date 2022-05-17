@@ -1,0 +1,170 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin: 0;
+}
+
+/* Nav section */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #1F2937;
+    color: white;
+    padding: 1em 10em;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+/* main section */
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* main > intro section */
+
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 2em 10em 5em;
+    color: white;
+    gap: 3em;
+
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 750px;
+}
+
+.btn {
+    flex-grow: 0;
+    height: auto;
+    width: 100px;
+    background-color: #407EEF;
+    color: white;
+    border: #407EEF solid;
+    border-radius: 0.25rem;
+}
+
+.img-plchldr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: auto;
+    width: 700px;
+    background-color: #6D747D;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB
+
+}
+
+.intro h1 {    
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+/* main > content section */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 10em 4em;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.card {
+    height: auto;
+    width: 144px;
+}
+.content-img {
+    height: 144px;
+    width: 144px;
+
+    border: 5px solid #407EEF;
+    border-radius: 0.65rem;
+}
+
+/* main > quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 2em 5em;
+
+}
+
+.quote p {
+    margin: 0;
+    
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/* main > sign-up-section section */
+
+.sign-up-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #407EEF;
+    color: white;
+    border-radius: 0.5em;
+    margin: 5em 20em;
+    flex-basis: 100px;
+}
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 1em 10em;
+}
