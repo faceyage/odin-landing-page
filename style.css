@@ -61,12 +61,12 @@ ul {
 
 .btn {
     flex-grow: 0;
-    height: auto;
+    height: 30px;
     width: 100px;
     background-color: #407EEF;
     color: white;
     border: #407EEF solid;
-    border-radius: 0.25rem;
+    border-radius: 0.4rem;
 }
 
 .img-plchldr {
@@ -150,7 +150,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    gap: 48px;
     background-color: #407EEF;
     color: white;
     border-radius: 0.5em;
@@ -158,6 +158,9 @@ ul {
     flex-basis: 100px;
 }
 
+.sign-up-section .btn {
+    border: 2px white solid;
+}
 /* Footer section */
 
 .footer {
